@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #000820;
+  --background-color: #395886;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #001553;
@@ -555,25 +555,30 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
+  color: #ffffff;
   background-color: var(--background-color);
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
 }
 
 .footer .footer-top {
-  background-color: color-mix(in srgb, var(--background-color), white 5%);
+  background-color: color-mix(in srgb, var(--background-color),);
   padding-top: 50px;
 }
 
+footer.footer-logo-img {
+  max-width: 66px;
+  height: auto;
+  border-radius: 5px;
+}
 .footer .footer-about .logo {
   line-height: 1;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 120px;
+  margin-right: 90px;
 }
 
 .footer .footer-about .logo span {
@@ -582,11 +587,13 @@ h6 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
+  position: justify;
 }
 
 .footer .footer-about p {
   font-size: 14px;
   font-family: var(--heading-font);
+  position: justify;
 }
 
 .footer h4 {
@@ -609,7 +616,7 @@ h6 {
 }
 
 .footer .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .footer .footer-links ul {
@@ -619,13 +626,13 @@ h6 {
 }
 
 .footer .footer-links ul i {
-  padding-right: 2px;
-  font-size: 12px;
+  padding-right: 3px;
+  font-size: 18px;
   line-height: 0;
 }
 
 .footer .footer-links ul li {
-  padding: 10px 0;
+  padding: 8px 0;
   display: flex;
   align-items: center;
 }
@@ -635,7 +642,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: var(--default-color);
   display: inline-block;
   line-height: 1;
 }
@@ -664,7 +671,7 @@ h6 {
 .footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  background: #0e1b4d;
   color: var(--contrast-color);
   line-height: 1;
   padding: 8px 0;
